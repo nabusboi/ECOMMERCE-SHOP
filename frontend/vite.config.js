@@ -6,8 +6,8 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      "/api/": "https://ecommerce-shop-ueur.onrender.com",
-      "/uploads/": "https://ecommerce-shop-ueur.onrender.com",
+      "/api/": "https://ecommerce-shop-1-palu.onrender.com",
+      "/uploads/": "https://ecommerce-shop-1-palu.onrender.com",
     },
   },
 });
